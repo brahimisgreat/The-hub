@@ -4,8 +4,9 @@
     padding: 0;
     font-size: 18px;
     font-family:  'Hanken Grotesk', sans-serif;
-    color: white;
+    color:black;
 }
+
 
 
 body{
@@ -23,7 +24,7 @@ body{
 
 main{
     display: flex;
-    border: solid 3px black;
+    
 
 
     
@@ -37,8 +38,8 @@ main{
     align-items: center;
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     gap: 25px;
-    border-radius: 15%;
-    border: solid 3px black;
+    border-radius: 8%;
+    
     padding: 50px;
     
 
@@ -78,4 +79,115 @@ main{
     text-align: center;
     color: hsl(241, 100%, 89%);
    
+}
+
+
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    border-radius: 20%;
+}
+
+
+
+.innerbox2{
+    width: 20rem;
+    border-radius: 8%;
+    position: relative;
+    z-index: -1;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8%;
+    justify-content: center;
+    box-shadow: 10px 5px 5px rgb(224, 223, 223);
+
+}
+/* Six BOxes in innerbox2 */
+.rea-box, .mem-box, .ver-box, .vis-box, .con-box, .box2-title{
+    display: flex;
+    width: 60%;
+    font-size: 16px;
+    border-radius: 15%;
+    background-color: hsl(0, 66%, 92%);
+    padding: 2%;
+    margin-left: 10%;
+}
+
+.title{
+    margin-left: 4%;
+    color: hsl(0, 100%, 67%);
+}
+
+
+.mem-box{
+    background-color: hsl(39, 74%, 89%);
+}
+
+
+.title2{
+    color: hsl(39, 100%, 56%);
+    margin-left: 4%;
+}
+
+/* target space */
+.red{
+    margin-left: 11%;
+}
+
+
+.blue{
+    margin-left:22% ;
+}
+
+
+.box2-title, h2{
+    color:  hsl(224, 30%, 27%);
+    font-weight: 800;
+}
+
+.rea-box{
+    background-color: hsl(0, 66%, 92%);
+}
+
+.title3{
+    color: hsl(166, 100%, 37%);
+    margin-left: 4%;
+}
+
+.ver-box{
+    background-color: hsl(167, 57%, 87%);
+}
+
+.title4{
+    color:  hsl(234, 85%, 45%);
+    margin-left: 4%;
+}
+
+.vis-box{
+    background-color:  hsl(234, 85%, 87%);
+}
+
+.con-box{
+    display: flex;
+    justify-content: center;
+    border-radius: 40%;
+    background-color:  hsl(224, 30%, 27%);
+    
+}
+
+.con-box span{
+    color: hsl(221, 100%, 96%);
+    padding: 2%;
+    border-radius: 15%;
+}
+
+.box2-title{
+    background-color: transparent;
+}
+
+span{
+    color:hsl(224, 30%, 27%);
 }
